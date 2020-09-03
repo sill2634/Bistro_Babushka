@@ -1,0 +1,153 @@
+* {
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+
+    background-color: beige;
+    background-image: url(splash.jpeg);
+    background-size: auto;
+    background-position: center;
+    object-fit: cover;
+
+
+
+
+}
+
+
+
+#splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(splash.jpeg);
+    background-size: cover;
+    background-position: center;
+    max-width: none;
+    position: relative;
+}
+
+#sec1 article {
+    padding: 10px;
+    background-color: #f2f2d1;
+
+
+}
+
+
+img {
+    max-width: 70%;
+    max-height: 200px;
+    position: relative;
+    left: 15%;
+    margin-bottom: 20px;
+}
+
+
+
+
+#sec1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    color: black;
+
+
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+    letter-spacing: 15px;
+    font-size: 3em;
+    color: beige;
+}
+
+h2 {
+    margin: 2px;
+    white-space: nowrap;
+    font-family: 'Staatliches', cursive;
+}
+
+h3 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 100;
+    letter-spacing: 15px;
+    font-size: 3em;
+    color: beige;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+.filter {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+
+.filter:focus {
+    color: white;
+    background-color: black;
+
+}
+
+header {
+    margin-bottom: 20px;
+
+
+}
+
+#popop {
+
+    position: fixed;
+    left: 10vw;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+
+
+}
+
+#popop article {
+
+    width: 50vw;
+    height: 50vh;
+    margin: 4rem auto;
+    background-color: beige;
+
+
+}
+
+#luk {
+
+    position: fixed;
+    top: 0;
+    right: 1em;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 1em;
+
+
+}
